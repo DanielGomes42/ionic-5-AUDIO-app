@@ -1,3 +1,1 @@
-# Ionic Spotify Player UI - Built with Ionic
-
-Coming soon..
+APP que mostra as composiçoes de (Yago Langer)
