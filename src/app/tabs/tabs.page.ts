@@ -1,5 +1,6 @@
 import { Component, ViewChild } from '@angular/core';
 import { IonTabs } from '@ionic/angular';
+import { NativeAudio } from '@ionic-native/native-audio/ngx';
 
 @Component({
   selector: 'app-tabs',
@@ -11,7 +12,16 @@ export class TabsPage {
   selected = '';
   progress = 42;
   
-  constructor() {}
+  constructor(private nativeAudio: NativeAudio) {}
+  ngOnInit() {
+    this.nativeAudio.preloadSimple('right','https://ia801505.us.archive.org/17/items/musica-00001/MUSICA%2000001.mp3');
+  }
+
+  irparamusica() {
+    // use AudioProvider to control selected track
+    this.nativeAudio.play("right");
+  }
+
 
   setSelectedTab() {
     this.selected = this.tabs.getSelected();
