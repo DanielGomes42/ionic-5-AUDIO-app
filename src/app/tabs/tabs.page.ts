@@ -19,7 +19,9 @@ export class TabsPage {
 
   irparamusica() {
     // use AudioProvider to control selected track
-    this.nativeAudio.play("right");
+    this.nativeAudio.preloadSimple('right','https://ia801505.us.archive.org/17/items/musica-00001/MUSICA%2000001.mp3').then(
+      () => this.nativeAudio.play("right")
+    );
   }
 
 
