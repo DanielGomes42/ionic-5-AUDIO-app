@@ -14,15 +14,15 @@ export class Tab1Page {
 
   data = [
     {
-      title: 'Musicas para Liberação',
+      title: 'Liberação',
       albums: recentlyPlayed
     },
     {
-      title: 'Musicas em Construção',
+      title: 'Construção',
       albums: heavyRotation
     },
     {
-      title: 'Musicas JÁ LIBERADAS',
+      title: 'Licenciadas',
       albums: jumpBackIn
     }
   ];

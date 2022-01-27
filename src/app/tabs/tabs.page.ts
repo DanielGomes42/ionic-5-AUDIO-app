@@ -14,15 +14,10 @@ export class TabsPage {
   
   constructor(private nativeAudio: NativeAudio) {}
   ngOnInit() {
-    this.nativeAudio.preloadSimple('right','https://ia801505.us.archive.org/17/items/musica-00001/MUSICA%2000001.mp3');
+   
   }
 
-  irparamusica() {
-    // use AudioProvider to control selected track
-    this.nativeAudio.preloadSimple('right','https://ia801505.us.archive.org/17/items/musica-00001/MUSICA%2000001.mp3').then(
-      () => this.nativeAudio.play("right")
-    );
-  }
+  
 
 
   setSelectedTab() {

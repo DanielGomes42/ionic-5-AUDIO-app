@@ -1,11 +1,11 @@
 {
-  "artist": "Yago Langer",
+  
   "backgroundColor": "rgb(201, 76, 76)",
   "image": "cariocamini",
   "released": 2018,
-  "title": "Ex:Re",
+  "title": "carioca",
   "tracks": [
-    { "title": "Where The Time Went ", "seconds": 251 },
+    { "title": "Oi meu nome caciora e eu amo o´que eu faço porem é legal  ", "seconds": 251 },
     { "title": "Crushing", "seconds": 248 },
     { "title": "New York", "seconds": 320 },
     { "title": "Romance", "seconds": 403 },
