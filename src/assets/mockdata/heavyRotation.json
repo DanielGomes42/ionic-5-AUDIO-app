@@ -1,18 +1,18 @@
 [
   {
     "id": 1,
-    "image": "whenWeAllFallAsleep",
+    "image": "a",
     "title": "WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?"
   },
-  { "id": 2, "image": "bornToDie", "title": "Born To Die" },
-  { "id": 3, "image": "comeAroundSundown", "title": "Come Around Sundown" },
-  { "id": 4, "image": "housesOfTheHoly", "title": "Houses Of The Holy" },
-  { "id": 5, "image": "illuminate", "title": "Illuminate" },
+  { "id": 2, "image": "b", "title": "Born To Die" },
+  { "id": 3, "image": "c", "title": "Come Around Sundown" },
+  { "id": 4, "image": "c", "title": "Houses Of The Holy" },
+  { "id": 5, "image": "a", "title": "Illuminate" },
   {
     "id": 6,
-    "image": "theLonesomeCrowdedWest",
+    "image": "a",
     "title": "The Lonesome Crowded West"
   },
-  { "id": 7, "image": "stadiumArcadium", "title": "Stadium Arcadium" },
-  { "id": 8, "image": "blankFaceLp", "title": "Blank Face LP" }
+  { "id": 7, "image": "a", "title": "Stadium Arcadium" },
+  { "id": 8, "image": "a", "title": "Blank Face LP" }
 ]

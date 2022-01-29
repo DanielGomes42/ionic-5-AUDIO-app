@@ -1,14 +1,14 @@
 [
-  { "id": 1, "image": "extraMachine", "title": "Extraordinary Machine" },
+  { "id": 1, "image": "a", "title": "Extraordinary Machine" },
   {
     "id": 2,
-    "image": "theLonesomeCrowdedWest",
+    "image": "a",
     "title": "The Lonesome Crowded West"
   },
-  { "id": 3, "image": "wishYouWereHere", "title": "Wish You Were Here" },
+  { "id": 3, "image": "a", "title": "Wish You Were Here" },
   {
     "id": 4,
-    "image": "dearMissLonelyhearts",
+    "image": "a",
     "title": "Dear Miss Lonelyhearts"
   }
 ]
