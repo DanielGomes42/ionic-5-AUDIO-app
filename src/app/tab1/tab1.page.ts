@@ -3,7 +3,7 @@ import { Router } from '@angular/router';
 
 import lista1 from '../../assets/mockdata/lista1.json';
 import lista2 from '../../assets/mockdata/lista2.json';
-import jumpBackIn from '../../assets/mockdata/jumpBackIn.json';
+import lista3 from '../../assets/mockdata/lista3.json';
 
 @Component({
   selector: 'app-tab1',
@@ -23,7 +23,7 @@ export class Tab1Page {
     },
     {
       title: 'Licenciadas',
-      albums: jumpBackIn
+      albums:  lista3
     }
   ];
 
