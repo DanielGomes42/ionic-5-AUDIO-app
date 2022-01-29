@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
 
-import recentlyPlayed from '../../assets/mockdata/recentlyPlayed.json';
-import heavyRotation from '../../assets/mockdata/heavyRotation.json';
+import lista1 from '../../assets/mockdata/lista1.json';
+import lista2 from '../../assets/mockdata/lista2.json';
 import jumpBackIn from '../../assets/mockdata/jumpBackIn.json';
 
 @Component({
@@ -15,11 +15,11 @@ export class Tab1Page {
   data = [
     {
       title: 'Liberação',
-      albums: recentlyPlayed
+      albums: lista1
     },
     {
       title: 'Construção',
-      albums: heavyRotation
+      albums:lista2
     },
     {
       title: 'Licenciadas',
