@@ -19,11 +19,11 @@ export class Tab1Page {
     },
     {
       title: 'Construção',
-      albums:lista2
+      albums: lista2
     },
     {
       title: 'Licenciadas',
-      albums:  lista3
+      albums: lista3
     }
   ];
 

@@ -1,13 +1,13 @@
 [
-  { "id": 1, "image": "a", "title": "Ex:Re" },
-  { "id": 2, "image": "b", "title": "Swimming" },
+  { "id": 1, "image": "43", "title": "Radar -Liberação Simples" },
+  { "id": 2, "image": "b", "title": "Assunto Literário-Liberação Simples" },
   {
     "id": 3,
     "image": "c",
-    "title": "Man On The Moon II: The Legend of Mr. Rager"
+    "title": "Enfim a Hipocrisia -Liberação Simples"
   },
-  { "id": 4, "image": "d", "title": "Sea Of Cowards" },
-  { "id": 5, "image": "e", "title": "Wish You Were Here" },
+  { "id": 4, "image": "d", "title": "A Disney Perdeu Você-Liberação Simples" },
+  { "id": 5, "image": "e", "title": "Paranóia sem fim-Liberação Simples" },
   { "id": 6, "image": "a", "title": "Extraordinary Machine" },
   { "id": 7, "image": "a", "title": "The Creek Drank The Cradle" }
 ]
