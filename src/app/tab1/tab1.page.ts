@@ -40,7 +40,7 @@ export class Tab1Page {
 
   openAlbum(album) {
     const titleEscaped = encodeURIComponent(album.title);
-    this.router.navigateByUrl(`/tabs/tab1/${titleEscaped}`);
+    this.router.navigateByUrl(`/tabs/tab1/${titleEscaped}`)[0];
   }
 
   // Helper function for image names

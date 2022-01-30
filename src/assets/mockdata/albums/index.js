@@ -9,12 +9,12 @@ import whenWeAllFallAsleep from './whenWeAllFallAsleep.json';
 import wishYouWereHere from './wishYouWereHere.json';
 
 export default {
-  'Born To Die': bornToDie,
-  'Come Around Sundown': comeAroundSundown,
-  'Ex:Re': carioca,
+  'Paranóia sem fim-Liberação Simples': bornToDie,
+  'Enfim a Hipocrisia -Liberação Simples': comeAroundSundown,
+  'Radar -Liberação Simples': carioca,
   'Extraordinary Machine': extraordinaryMachine,
-  'Man On The Moon II: The Legend of Mr. Rager': manOnTheMoon2,
-  'Sea Of Cowards': seaOfCowards,
+  'A Disney Perdeu Você-Liberação Simples': manOnTheMoon2,
+  'Assunto Literário-Liberação Simples': seaOfCowards,
   Swimming: swimming,
   'WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?': whenWeAllFallAsleep,
   'Wish You Were Here': wishYouWereHere
