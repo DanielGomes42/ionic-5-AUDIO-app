@@ -6,10 +6,10 @@ import manOnTheMoon2 from './manOnTheMoon2.json';
 import seaOfCowards from './seaOfCowards.json';
 import swimming from './swimming.json';
 import whenWeAllFallAsleep from './whenWeAllFallAsleep.json';
-import wishYouWereHere from './wishYouWereHere.json';
+import ADDalbum from './ADDalbum.json';
 
 export default {
-  'Paranóia sem fim-Liberação Simples': bornToDie,
+  'Born To Die': bornToDie,
   'Enfim a Hipocrisia -Liberação Simples': comeAroundSundown,
   'Radar -Liberação Simples': carioca,
   'Extraordinary Machine': extraordinaryMachine,
@@ -17,5 +17,5 @@ export default {
   'Assunto Literário-Liberação Simples': seaOfCowards,
   Swimming: swimming,
   'WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?': whenWeAllFallAsleep,
-  'Wish You Were Here': wishYouWereHere
+  'Wish You Were Here': ADDalbum
 };

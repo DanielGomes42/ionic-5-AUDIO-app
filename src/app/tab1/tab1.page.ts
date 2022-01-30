@@ -14,21 +14,15 @@ export class Tab1Page {
 
   data = [
     {
-      title: 'Liberação',
+      title: 'Musicas',
       albums: lista1
     },
-    {
-      title: 'Construção',
-      albums: lista2
-    },
-    {
-      title: 'Licenciadas',
-      albums: lista3
-    }
+    
+   
   ];
 
   opts = {
-    slidesPerView: 2.4,
+    slidesPerView: 0.9,
     slidesOffsetBefore: 20,
     spaceBetween: 20,
     freeMode: true
