@@ -5,15 +5,21 @@
   "released": 2018,
   "title": "carioca",
   "tracks": [
-    { "title": "Oi meu nome caciora e eu amo o´que eu faço porem é legal  ", "seconds": 251 },
-    { "title": "Crushing", "seconds": 248 },
-    { "title": "New York", "seconds": 320 },
-    { "title": "Romance", "seconds": 403 },
-    { "title": "The Dazzler", "seconds": 282 },
-    { "title": "Too Sad", "seconds": 328 },
-    { "title": "Liar", "seconds": 294 },
-    { "title": "I Can't Keep You", "seconds": 257 },
-    { "title": "5AM", "seconds": 204 },
-    { "title": "My Heart", "seconds": 277 }
+    { "title": "Sei que combinamos em ir devagar ", "seconds": 251 },
+    { "title": "Nem tava nos meus planos me apaixonar", "seconds": 248 },
+    { "title": "Mas o que foi aquele beijo?", "seconds": 320 },
+    { "title": "Mistura de amor e desejo", "seconds": 403 },
+    { "title": "Eu fui começando a acelerar", "seconds": 282 },
+    { "title": "E não me dei conta de quando parar", "seconds": 328 },
+    { "title": "Já tinha ultrapassado você", "seconds": 294 },
+    { "title": "E os limites desse nosso lance", "seconds": 257 },
+    { "title": "Acelerei, radar pegou", "seconds": 204 },
+    { "title": "A multa já tava, esquematizada", "seconds": 277 },
+    { "title": "Sem seu amor, já não tinha mais nada", "seconds": 277 },
+    { "title": "Acelerei, radar pegou", "seconds": 277 },
+    { "title": "Tentei frear, não adiantou", "seconds": 277 },
+    { "title": "A multa já tava, esquematizada", "seconds": 277 },
+    { "title": "Sem seu amor, já não tinha mais nada", "seconds": 277 },
+    { "title": "Eu tô sozinho nessa estrada", "seconds": 277 }
   ]
 }

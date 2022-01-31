@@ -14,7 +14,7 @@ export class Tab1Page {
 
   data = [
     {
-      title: 'Musicas',
+      title: 'Composições...',
       albums: lista1
     },
     
