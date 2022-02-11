@@ -1,6 +1,6 @@
 import bornToDie from './bornToDie.json';
 import comeAroundSundown from './comeAroundSundown.json';
-import carioca from './carioca.json';
+import radar from './radar.json';
 import extraordinaryMachine from './extraordinaryMachine.json';
 import manOnTheMoon2 from './manOnTheMoon2.json';
 import seaOfCowards from './seaOfCowards.json';
@@ -11,7 +11,7 @@ import ADDalbum from './ADDalbum.json';
 export default {
   'Born To Die': bornToDie,
   'Enfim a Hipocrisia -Liberação Simples': comeAroundSundown,
-  'Radar -Liberação Simples': carioca,
+  'Radar -Liberação Simples': radar,
   'Extraordinary Machine': extraordinaryMachine,
   'A Disney Perdeu Você-Liberação Simples': manOnTheMoon2,
   'Assunto Literário-Liberação Simples': seaOfCowards,
