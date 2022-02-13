@@ -1,26 +1,25 @@
-{
-  
+{  
   "backgroundColor": "rgb(201, 76, 76)",
   "image": "cariocamini",
   "released": 2018,
   "title": "Radar..",
 
-  "tracks": [
-    { "title": "Sei que combinamos em ir devagar ", "seconds": 251 },
-    { "title": "Nem tava nos meus planos me apaixonar", "seconds": 248 },
-    { "title": "Mas o que foi aquele beijo?", "seconds": 320 },
-    { "title": "Mistura de amor e desejo", "seconds": 403 },
-    { "title": "Eu fui começando a acelerar", "seconds": 282 },
-    { "title": "E não me dei conta de quando parar", "seconds": 328 },
-    { "title": "Já tinha ultrapassado você", "seconds": 294 },
-    { "title": "E os limites desse nosso lance", "seconds": 257 },
-    { "title": "Acelerei, radar pegou", "seconds": 204 },
-    { "title": "A multa já tava, esquematizada", "seconds": 277 },
-    { "title": "Sem seu amor, já não tinha mais nada", "seconds": 277 },
-    { "title": "Acelerei, radar pegou", "seconds": 277 },
-    { "title": "Tentei frear, não adiantou", "seconds": 277 },
-    { "title": "A multa já tava, esquematizada", "seconds": 277 },
-    { "title": "Sem seu amor, já não tinha mais nada", "seconds": 277 },
-    { "title": "Eu tô sozinho nessa estrada", "seconds": 277 }
-  ]
+  "music": 
+      "Sei que combinamos em ir devagar\n",
+      "Nem tava nos meus planos me apaixonar\n",
+      "Mas o que foi aquele beijo?\n",
+      "Mistura de amor e desejo\n",
+      "Eu fui começando a acelerar\n",
+      "E não me dei conta de quando parar\n",
+      "Já tinha ultrapassado você\n",
+      "E os limites desse nosso lance\n",
+      "Acelerei, radar pegou\n",
+      "A multa já tava, esquematizada\n"
+      "Sem seu amor, já não tinha mais nada\n"
+      "Acelerei, radar pegou\n"
+      "Tentei frear, não adiantou\n"
+      "A multa já tava, esquematizada\n"
+      "Eu tô sozinho nessa estrada\n"
+      
 }
+

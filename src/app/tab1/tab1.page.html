@@ -1,24 +1,22 @@
 <ion-content>
   <ion-progress-bar value="0.25" buffer="0.35" color="primary"></ion-progress-bar>
-  <ion-row class="ion-no-padding" *ngFor="let entry of data; let isFirst = odd">
-    <!--  Section Title -->
-    <ion-col size="9">
-      <h2 class="section-header">{{ entry.title }}</h2>
-    </ion-col>
-    <ion-col size="3" class="ion-text-end">
-      <ion-button fill="clear" color="light" *ngIf="isFirst">TESTE
-        <ion-icon name="happy-outline" slot="icon-only"></ion-icon>
-      </ion-button>
-    </ion-col>
-
-    <!-- Horizontal scroll view -->
-    <ion-slides [options]="opts">
-      <ion-slide *ngFor="let album of entry.albums" tappable (click)="openAlbum(album)">
-        <img [src]="'/assets/images/albums/'+dasherize(album.image)+'.jpg'">
-        <span class="title">{{ album.title}}</span>
-      </ion-slide>
-
-    </ion-slides>
-  </ion-row>
-
+  
+  <ion-grid>
+    <ion-row class="ion-no-padding">
+      <!--  Section Title -->
+      <ion-col size="9">
+        <h2 class="section-header">Músicas...</h2>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-slides [options]="opts">
+          <ion-slide *ngFor="let album of albums" (click)="openAlbum(album)">
+            <ion-img [src]="album.image"></ion-img>
+            <span class="title">{{ album.title }}</span>
+          </ion-slide>
+        </ion-slides>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
 </ion-content>

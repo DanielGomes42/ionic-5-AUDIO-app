@@ -1,13 +1,32 @@
 [
-  { "id": 1, "image": "a", "title": "Radar -Liberação Simples" },
-  { "id": 2, "image": "b", "title": "Assunto Literário-Liberação Simples" },
+  {
+    "id": 1,
+    "image": "/assets/images/albums/41.jpg",
+    "title": "Radar -Liberação Simples",
+    "link": "link1"
+  },
+  {
+    "id": 2,
+    "image": "/assets/images/albums/43.jpg",
+    "title": "Assunto Literário-Liberação Simples",
+    "link": "link2"
+  },
   {
     "id": 3,
-    "image": "c",
-    "title": "Enfim a Hipocrisia -Liberação Simples"
+    "image": "/assets/images/albums/c.jpg",
+    "title": "Enfim a Hipocrisia -Liberação Simples",
+    "link": "link3"
   },
-  { "id": 4, "image": "d", "title": "A Disney Perdeu Você-Liberação Simples" },
-  { "id": 5, "image": "e", "title": "Paranóia sem fim-Liberação Simples" }
- 
- 
+  {
+    "id": 4,
+    "image": "/assets/images/albums/carioca.jpg",
+    "title": "A Disney Perdeu Você-Liberação Simples",
+    "link": "link4"
+  },
+  {
+    "id": 5,
+    "image": "/assets/images/albums/d.jpg",
+    "title": "Paranóia sem fim-Liberação Simples",
+    "link": "link5"
+  }
 ]

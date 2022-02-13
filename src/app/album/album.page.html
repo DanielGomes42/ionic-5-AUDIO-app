@@ -3,15 +3,15 @@
     <ion-buttons slot="start">
       <ion-back-button text="" color="light" defaultHref="/tabs/tab1"></ion-back-button>
     </ion-buttons>
-    <ion-title color="light">{{ data?.title }}</ion-title>
+    <ion-title color="light">{{ album.title }}</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content scrollEvents="true"  [fullscreen]="true" [appImageFade]="cover"  [style.--custombg]="data.backgroundColor">
+<ion-content scrollEvents="true" [fullscreen]="true" [appImageFade]="cover" [style.--custombg]="data.backgroundColor">
 
   <!-- Image of the album -->
   <div class="ion-text-center image-box" #cover>
-    <img [src]="'/assets/images/albums/'+dasherize(data.image)+'.jpg'" >
+    <img [src]="album.image">
   </div>
 
   <!-- Rest of the page content -->
@@ -20,24 +20,25 @@
     <!-- General information -->
     <ion-row>
       <ion-col size="12" class="album-info">
-        <p>{{ data.artist }}</p>
-        <span>Album {{ data.title }} · {{ data.released }}</span>
+        <p>{{ album.artist }}</p>
+        <span>Album {{ album.title }} · {{ album.released }}</span>
       </ion-col>
       <ion-col size="8" class="ion-text-left ion-no-padding">
-        <ion-button fill="clear" class="ion-no-margin" href="https://www.youtube.com/watch?v=RFaarZkCUOo&feature=youtu.be">
-          <ion-icon name="logo-youtube" size="large" color="danger" slot="icon-only" ></ion-icon>
+        <ion-button fill="clear" class="ion-no-margin"
+          href="https://www.youtube.com/watch?v=RFaarZkCUOo&feature=youtu.be">
+          <ion-icon name="logo-youtube" size="large" color="danger" slot="icon-only"></ion-icon>
         </ion-button>
-    
-       
+
+
       </ion-col>
       <ion-col size="4" class="ion-text-right ion-no-padding">
-        <ion-button fill="clear" class="ion-no-margin" >
-          <ion-icon name="play-circle" size="large" color="danger" slot="icon-only"></ion-icon>
-          <ion-icon name="pause-circle" size="large" color="danger" slot="icon-only"></ion-icon>
-          <ion-icon name="stop-circle" size="large" color="danger" slot="icon-only"></ion-icon>
-          
-        </ion-button>
-       
+
+        <div>
+          <ion-icon name="play-circle" size="large" color="danger" slot="icon-only" (click)="getLink(album)"></ion-icon>
+          <ion-icon name="pause-circle" size="large" color="danger" slot="icon-only" (click)="getLink(album)">
+          </ion-icon>
+          <ion-icon name="stop-circle" size="large" color="danger" slot="icon-only" (click)="getLink(album)"></ion-icon>
+        </div>
       </ion-col>
     </ion-row>
 
@@ -45,9 +46,9 @@
     <ion-list>
       <ion-item *ngFor="let t of data.tracks" lines="none">
         <ion-label>{{ t.title }}
-          <p>{{ data.artist }}</p>
+          <p>{{ album.artist }}</p>
         </ion-label>
-       
+
       </ion-item>
     </ion-list>
   </div>
