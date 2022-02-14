@@ -12,7 +12,7 @@ import lista3 from '../../assets/mockdata/lista3.json';
   styleUrls: ['tab1.page.scss']
 })
 export class Tab1Page {
-  albums: Array<any> = []
+  albums: Array<any> = [] // ts 
 
   opts = {
     slidesPerView: 0.9,
