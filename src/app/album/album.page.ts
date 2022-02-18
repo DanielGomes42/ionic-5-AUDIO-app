@@ -26,7 +26,7 @@ export class AlbumPage implements OnInit {
   }
 
   getLink(album): void {
-    // ----> console.log(album.link)
+    console.log(album.link)
   }
 
   // Helper function for image names
