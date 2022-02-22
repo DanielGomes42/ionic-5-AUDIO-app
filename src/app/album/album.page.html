@@ -34,10 +34,10 @@
       <ion-col size="4" class="ion-text-right ion-no-padding">
 
         <div>
-          <ion-icon name="play-circle" size="large" color="danger" slot="icon-only" (click)="getLink(album)"></ion-icon>
-          <ion-icon name="pause-circle" size="large" color="danger" slot="icon-only" (click)="getLink(album)">
+          <ion-icon name="play-circle" size="large" color="danger" slot="icon-only" (click)=" getLink(album)"></ion-icon>
+          <ion-icon name="pause-circle" size="large" color="danger" slot="icon-only" (click)="stop(album)">
           </ion-icon>
-          <ion-icon name="stop-circle" size="large" color="danger" slot="icon-only" (click)="getLink(album)"></ion-icon>
+          <ion-icon name="stop-circle" size="large" color="danger" slot="icon-only" (click)="pause(album)"></ion-icon>
         </div>
       </ion-col>
     </ion-row>
@@ -46,7 +46,7 @@
     <ion-list>
       <ion-item *ngFor="let t of data.tracks" lines="none">
         <ion-label>{{ t.title }}
-          <p>{{ album.artist  }}</p>
+          <p>artista{{ album.link  }}</p>
         </ion-label>
 
       </ion-item>

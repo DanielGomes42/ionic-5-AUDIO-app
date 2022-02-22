@@ -20,14 +20,15 @@ export class AlbumPage implements OnInit {
     /*const title = this.activatedRoute.snapshot.paramMap.get('title');
     const decodedTitle = decodeURIComponent(title);
     this.data = albums[decodedTitle];  */
-    this.nativeAudio.preloadSimple('01', 'album.link')
+    this.nativeAudio.preloadComplex('01', 'album.link', 1, 1, 0);
     this.album = history.state.album;// history.state está movendo para o histórico para state do album
 
     this.album.link
   }
 
+
   getLink(album): void {
-    this.nativeAudio.play('01')
+    this.nativeAudio.play('01', () => console.log('uniqueId1 is done playing'));
     console.log(album.link)
   }
 
