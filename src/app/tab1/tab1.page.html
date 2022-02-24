@@ -5,7 +5,7 @@
     <ion-row class="ion-no-padding">
       <!--  Section Title -->
       <ion-col size="9">
-        <h2 class="section-header">Músicas... e compisçoes</h2>
+        <h2 class="section-header">Músicas... e compisiçoes add pipe impuro</h2>
       </ion-col>
     </ion-row>
     <ion-row>
@@ -13,7 +13,11 @@
         <ion-slides [options]="opts">
           <ion-slide *ngFor="let album of albums" (click)="openAlbum(album)">
             <ion-img [src]="album.image"></ion-img>
-            <span class="title">{{ album.title }}</span>
+            <span class="title">{{ album.title }}
+              {{album.link }}
+              {{album.id }}
+              {{album.image}}
+            </span>
           </ion-slide>
         </ion-slides>
       </ion-col>
