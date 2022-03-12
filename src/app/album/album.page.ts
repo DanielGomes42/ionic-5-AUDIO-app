@@ -17,9 +17,11 @@ export class AlbumPage implements OnInit {
   constructor(private activatedRoute: ActivatedRoute ,private nativeAudio: NativeAudio) { }
 
   ngOnInit() {
-    /*const title = this.activatedRoute.snapshot.paramMap.get('title');
-    const decodedTitle = decodeURIComponent(title);
-    this.data = albums[decodedTitle];  */
+    // const title = this.activatedRoute.snapshot.paramMap.get('title');
+    // const decodedTitle = decodeURIComponent(title);
+    // this.data = albums[decodedTitle];  
+
+
     this.nativeAudio.preloadComplex('01', 'album.link', 1, 1, 0);
     this.album = history.state.album;// history.state está movendo para o histórico para state do album
 

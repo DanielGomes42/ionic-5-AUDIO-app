@@ -4,7 +4,8 @@ buildscript {
     
     repositories {
         google()
-        jcenter()
+       gradlePluginPortal()
+mavenCentral()
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:3.6.1'
@@ -20,7 +21,20 @@ apply from: "variables.gradle"
 allprojects {
     repositories {
         google()
-        jcenter()
+        gradlePluginPortal()
+mavenCentral()
+  maven {
+        url = "https://repo1.maven.org/maven2/"
+    }
+    maven {
+        url "https://repo.spring.io/release"
+    }
+    maven {
+        url "https://repository.jboss.org/maven2"
+    }
+    maven {
+        url 'https://repo.jenkins-ci.org/public/'
+    }
     }
 }
 

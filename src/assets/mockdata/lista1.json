@@ -3,30 +3,48 @@
     "id": 1,
     "image": "/assets/images/albums/a.jpg",
     "title": "Radar -Liberação Simples",
-    "link": "https://ia801505.us.archive.org/17/items/musica-00001/MUSICA%2000001.mp3"
+    "link": "https://ia801505.us.archive.org/17/items/musica-00001/MUSICA%2000001.mp3",  
+         "Numero":"0001",
+         "Textos":[  
+            {  
+               "letra": [
+                          "Meu Jesus maravilhoso és,",
+                          "minha inspiração a prosseguir,",
+                          "e mesmo quando tudo não vai bem,",
+                          "eu continuo olhando para ti..."       
+                        ],
+                "titulo":"Aos pés da cruz"
+            }
+         ]
+
+ 
   },
   {
     "id": 2,
     "image": "/assets/images/albums/a.jpg",
     "title": "Assunto Literário-Liberação Simples",
-    "link": "link2"
+    "link": "link2",
+    "tracks":"Sei"
   },
   {
     "id": 3,
     "image": "/assets/images/albums/c.jpg",
     "title": "Enfim a Hipocrisia -Liberação Simples",
-    "link": "link3"
+    "link": "link3",
+    "tracks":"Sei"
   },
   {
     "id": 4,
     "image": "/assets/images/albums/carioca.jpg",
     "title": "A Disney Perdeu Você-Liberação Simples",
-    "link": "link4"
+    "link": "link4",
+    "tracks":"Sei"
   },
   {
     "id": 5,
     "image": "/assets/images/albums/d.jpg",
     "title": "Paranóia sem fim-Liberação Simples",
-    "link": "link5"
+    "link": "link5",
+    "tracks":"Sei"
   }
 ]
