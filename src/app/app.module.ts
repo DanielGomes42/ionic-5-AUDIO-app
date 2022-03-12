@@ -1,3 +1,4 @@
+import { Musica01Component } from './musica01/musica01.component';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { RouteReuseStrategy } from '@angular/router';
@@ -11,7 +12,7 @@ import { AppComponent } from './app.component';
 import { NativeAudio } from '@ionic-native/native-audio/ngx';
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent,Musica01Component],
   entryComponents: [],
   imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule],
   providers: [

@@ -3,27 +3,44 @@
     <ion-buttons slot="start">
       <ion-back-button text="" color="light" defaultHref="/tabs/tab1"></ion-back-button>
     </ion-buttons>
-    <ion-title color="light">{{ album.title }}</ion-title>
+    <ion-title color="light">RADAR</ion-title>
   </ion-toolbar>
 </ion-header>
-
-<ion-content scrollEvents="true" [fullscreen]="true" [appImageFade]="cover" [style.--custombg]="data.backgroundColor">
+<ion-content scrollEvents="true" [fullscreen]="true" [style.--custombg]="data.backgroundColor">
 
   <!-- Image of the album -->
-  <div class="ion-text-center image-box" #cover>
-    <img [src]="album.image">
-  </div>
+  <div class=" image-box" color="light">
+    Sei que combinamos em ir devagar <br>
+Nem tava nos meus planos me apaixonar<br>
+Mas o que foi aquele beijo?<br>
+Mistura de amor e desejo<br>
+Eu fui começando a acelerar<br>
+E não me dei conta de quando parar<br>
+Já tinha ultrapassado você<br>
+E os limites desse nosso lance<br>
+Acelerei, radar pegou<br>
+Tentei frear, não adiantou<br>
+A multa já tava, esquematizada<br>
+Sem seu amor, já não tinha mais nada<br>
+Acelerei, radar pegou<br>
+Tentei frear, não adiantou<br>
+A multa já tava, esquematizada<br>
+Sem seu amor, já não tinha mais nada<br>
+Eu tô sozinho nessa estrada<br>
 
+  </div>
+<br>
+<br>
+<br>
+<br>
   <!-- Rest of the page content -->
   <div class="main">
 
     <!-- General information -->
     <ion-row>
       <ion-col size="12" class="album-info">
-        <p>{{ album.title}}</p>
-        <span>Album {{ album.title }}</span><br>
-        
-      
+        <p></p>
+       
       </ion-col>
       <ion-col size="8" class="ion-text-left ion-no-padding">
         <ion-button fill="clear" class="ion-no-margin"
@@ -46,9 +63,9 @@
 
     <!-- List of tracks -->
     <ion-list>
-      <ion-item *ngFor="let t of data.tracks" lines="none">
-        <ion-label>{{ t.title }}
-          <p>artista{{ album.link  }}</p>
+      <ion-item lines="none">
+        <ion-label>
+          <p>Autor : Yago Langer</p>
         </ion-label>
 
       </ion-item>

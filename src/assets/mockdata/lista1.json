@@ -4,20 +4,7 @@
     "image": "/assets/images/albums/a.jpg",
     "title": "Radar -Liberação Simples",
     "link": "https://ia801505.us.archive.org/17/items/musica-00001/MUSICA%2000001.mp3",  
-         "Numero":"0001",
-         "Textos":[  
-            {  
-               "letra": [
-                          "Meu Jesus maravilhoso és,",
-                          "minha inspiração a prosseguir,",
-                          "e mesmo quando tudo não vai bem,",
-                          "eu continuo olhando para ti..."       
-                        ],
-                "titulo":"Aos pés da cruz"
-            }
-         ]
-
- 
+    "Numero":"0001"
   },
   {
     "id": 2,
