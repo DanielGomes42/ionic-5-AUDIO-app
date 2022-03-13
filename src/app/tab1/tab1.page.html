@@ -11,15 +11,16 @@
     <ion-row>
       <ion-col>
         <ion-slides [options]="opts">
+          <ion-slide>
+            <img src="/assets/images/albums/a.jpg" routerLink="musica01">
+            <span class="title">POKEMON</span>
+           </ion-slide>
           <ion-slide *ngFor="let album of albums" (click)="openAlbum(album)">
             <ion-img [src]="album.image"></ion-img>
             <span class="title">{{ album.title }} 
             </span>
           </ion-slide>
-          <ion-slide>
-            <img src="/assets/images/albums/a.jpg" routerLink="musica01">
-            <span class="title">POKEMON</span>
-           </ion-slide>
+          
         </ion-slides>
       </ion-col>
     </ion-row>
