@@ -18,7 +18,7 @@ export class Musica01Component implements OnInit {
   
   constructor(private nativeAudio: NativeAudio) { }
 
-  ngOnInit() {this.nativeAudio.preloadSimple('01', 'path/to/file.mp3')}
+  ngOnInit() {this.nativeAudio.preloadSimple('01', 'https://ia801505.us.archive.org/17/items/musica-00001/MUSICA%2000001.mp3')}
 
 
   tocarmusica(){
