@@ -1,1 +1,1 @@
-APP que mostra as composiçoes de (Yago Langer)
+APP. single page !      Mostra letras de músicas qie estão com suas licenças a venda !
